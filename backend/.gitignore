@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Alembic
+alembic/versions/
+
+# Database
+*.sqlite3
+*.db
+
+# Test/coverage
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# FastAPI/Starlette
+instance/
+
+# Misc
+*.bak
+*.tmp
+
+# Ignore environment files
+.env*
+
+# Ignore migrations cache
+migrations/__pycache__/
+
+# Ignore static/media/uploads
+static/
+media/
+uploads/
+
+# Ignore node_modules if present
+node_modules/
