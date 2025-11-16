@@ -14,6 +14,7 @@ class Settings(BaseSettings):
 
     GITHUB_OAUTH_CLIENT_ID: str
     GITHUB_OAUTH_CLIENT_SECRET: str
+    GITHUB_REDIRECT_URI: str
 
     GITHUB_APP_ID: int
     GITHUB_WEBHOOK_SECRET: str
